@@ -7,21 +7,39 @@ Naming convention: use the exact filenames below so the links in the README tabl
 | # | Request | Expected Status | Filename |
 |---|---------|-----------------|----------|
 | 1 | GET `/api/health` | 200 | `01_health.png` |
+<img width="1444" height="925" alt="1" src="https://github.com/user-attachments/assets/c3d6296e-3ce4-49ce-96ea-207ce5d5e1b3" />
+
 | 2 | POST `/api/auth/register` — Freelancer success | 201 | `02_register_success.png` |
+<img width="1446" height="925" alt="5" src="https://github.com/user-attachments/assets/71b225e0-012d-4174-a9d4-0b840db4ecf8" />
+
+
+
+
 | 3 | POST `/api/auth/register` — Client success | 201 | `03_register_client.png` |
 | 4 | POST `/api/auth/register` — Duplicate email | 409 | `04_register_duplicate.png` |
+
 | 5 | POST `/api/auth/register` — Validation errors | 400 | `05_register_validation.png` |
+![Uploading 6.1.jpeg…]()
+
+
 | 6 | POST `/api/auth/register` — Admin role rejected | 400 | `06_register_admin_rejected.png` |
 | 7 | POST `/api/auth/login` — Success with JWT | 200 | `07_login_success.png` |
+<img width="1420" height="926" alt="2" src="https://github.com/user-attachments/assets/04c4361d-551f-4980-b5ea-d13ae6d1c27f" />
+
 | 8 | POST `/api/auth/login` — Wrong password | 401 | `08_login_wrong_password.png` |
 | 9 | POST `/api/auth/login` — Non-existent user | 401 | `09_login_no_user.png` |
 | 10 | POST `/api/auth/login` — Malformed JSON | 400 | `10_login_malformed_json.png` |
 | 11 | POST `/api/auth/login` — Oversized body | 413 | `11_login_oversized.png` |
 | 12 | GET `/api/auth/profile` — Valid token | 200 | `12_profile_success.png` |
+<img width="1440" height="942" alt="4" src="https://github.com/user-attachments/assets/95ac2d74-19b8-433a-a95c-9fbfa0c8909e" />
+
 | 13 | GET `/api/auth/profile` — No token | 401 | `13_profile_no_token.png` |
 | 14 | GET `/api/auth/profile` — Invalid token | 401 | `14_profile_invalid_token.png` |
+<img width="1437" height="907" alt="7" src="https://github.com/user-attachments/assets/c37abc83-95de-405f-a45e-86fe696b8c3c" />
+
 | 15 | GET `/api/auth/profile` — Expired token | 401 | `15_profile_expired_token.png` |
 | 16 | GET `/api/unknown/route` — Not found | 404 | `16_404_unknown_route.png` |
+<img width="1430" height="935" alt="8" src="https://github.com/user-attachments/assets/94c9b234-4e07-457a-974f-b46be66f9e22" />
 
 ## Minimum required (from the brief)
 
