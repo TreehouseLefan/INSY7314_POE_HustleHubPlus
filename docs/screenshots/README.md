@@ -7,7 +7,11 @@ Naming convention: use the exact filenames below so the links in the README tabl
 | # | Request | Expected Status | Filename |
 |---|---------|-----------------|----------|
 | 1 | GET `/api/health` | 200 | `01_health.png` |
+<img width="1444" height="925" alt="1" src="https://github.com/user-attachments/assets/c3d6296e-3ce4-49ce-96ea-207ce5d5e1b3" />
+
 | 2 | POST `/api/auth/register` — Freelancer success | 201 | `02_register_success.png` |
+<img width="1420" height="926" alt="2" src="https://github.com/user-attachments/assets/601d79c8-eb37-4d7b-9887-74e6a2e1fe38" />
+
 | 3 | POST `/api/auth/register` — Client success | 201 | `03_register_client.png` |
 | 4 | POST `/api/auth/register` — Duplicate email | 409 | `04_register_duplicate.png` |
 | 5 | POST `/api/auth/register` — Validation errors | 400 | `05_register_validation.png` |
